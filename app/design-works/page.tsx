@@ -67,10 +67,11 @@ export default function DesignWorks() {
           </section>
 
           <section className="bg-slate-900/20 h-[1000px] w-full my-[20px] p-[20px] rounded-2xl">
-            <div className="text-[28px] text-white font-bold">繪圖作品</div>
-            <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ就是一些我畫的東西</div>
+            <div className="text-[28px] text-white font-bold">設計/繪圖作品</div>
+            <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ就是一些我設計或是畫的東西</div>
             
             <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 m-[26px]">
+
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
                                 row-span-2 bg-center bg-cover relative">
                 <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
@@ -86,19 +87,18 @@ export default function DesignWorks() {
 
               </div>
 
-
-
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
-                                 overflow-hidden aspect-auto">
-                <img src={projectData["2"]["imageUrl"]} alt="psPoster"
-                     className="h-full w-full object-contain saturate-80"/>
+                                bg-center bg-cover relative">
+                <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center overflow-hidden aspect-auto">
+                  <img src={projectData["2"]["imageUrl"]} alt="psPoster"
+                      className="h-full w-full object-contain saturate-80"/>
+                </div>
 
-                <div className="text-white bg-black/15 w-full h-[80px] flex 
+                <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
                                   justify-center items-center backdrop-blur-sm
                                   absolute bottom-0">
                   { projectData["2"]["name"] }
                 </div>
-                
               </div>
               
               <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案2</div>
