@@ -8,12 +8,32 @@ export default function DesignWorks() {
 
   let projectData = {
     "1": {
-      "name":"布畫",
+      "name":"布畫_Dream & Keep the faith",
       "imageUrl": "/designwork1_cloth.jpg"
     },
     "2": {
       "name":"PS海報設計_梵谷與我",
       "imageUrl": "/ps_poster.png"
+    },
+    "3": {
+      "name":"水彩_美人魚",
+      "imageUrl": "/watercolor_mermaid.jpg"
+    },
+    "4": {
+      "name":"衣服設計1",
+      "imageUrl": "/TshirtDesign1.jpg"
+    },
+    "5": {
+      "name":"衣服設計2",
+      "imageUrl": "/TshirtDesign2.jpg"
+    },
+    "6": {
+      "name":"水彩_星冰樂",
+      "imageUrl": "/illustration_ice_cream.JPG"
+    },
+    "7": {
+      "name":"代針筆畫",
+      "imageUrl": "/fine_liner_art.jpg"
     },
   };
 
@@ -72,6 +92,7 @@ export default function DesignWorks() {
             
             <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 m-[26px]">
 
+              {/* 作品1 */}
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
                                 row-span-2 bg-center bg-cover relative">
                 <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
@@ -81,32 +102,90 @@ export default function DesignWorks() {
 
                 <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
                                   justify-center items-center backdrop-blur-sm
-                                  absolute bottom-0">
+                                  absolute bottom-0 rounded-2xl">
                   { projectData["1"]["name"] }
                 </div>
 
               </div>
 
+              {/* 作品2 */}
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
                                 bg-center bg-cover relative">
                 <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center overflow-hidden aspect-auto">
                   <img src={projectData["2"]["imageUrl"]} alt="psPoster"
-                      className="h-full w-full object-contain saturate-80"/>
+                      className="h-full w-full object-contain saturate-70"/>
                 </div>
 
                 <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
                                   justify-center items-center backdrop-blur-sm
-                                  absolute bottom-0">
+                                  absolute bottom-0 rounded-2xl">
                   { projectData["2"]["name"] }
                 </div>
               </div>
-              
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案2</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案3</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案4</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案5</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案6</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案7</div>
+
+              {/* 作品4 */}
+              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
+                                col-span-2 bg-center bg-cover relative">
+                <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-start overflow-hidden aspect-auto">
+                  <img src={projectData["4"]["imageUrl"]} alt="TshirtDesign1"
+                      className="h-[230px] w-full object-contain brightness-80"/>
+                </div>
+
+                <div className="text-slate-600 bg-black/15 w-full h-[30px] flex 
+                                  justify-center items-center backdrop-blur-sm
+                                  absolute bottom-0 rounded-2xl">
+                  { projectData["4"]["name"] }
+                </div>
+              </div>
+
+              {/* 作品5 */}
+              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
+                                bg-center bg-cover relative">
+                <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center overflow-hidden aspect-auto">
+                  <img src={projectData["5"]["imageUrl"]} alt="TshirtDesign2"
+                      className="h-full w-full object-contain brightness-70"/>
+                </div>
+
+                <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
+                                  justify-center items-center backdrop-blur-sm
+                                  absolute bottom-0 rounded-2xl">
+                  { projectData["5"]["name"] }
+                </div>
+              </div>
+
+
+              {/* 作品3 */}
+              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
+                                row-span-2 bg-center bg-cover relative">
+                <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
+                   <img src={projectData["3"]["imageUrl"]} alt="watercolorMermaid"
+                        className="h-full w-full object-contain"/>
+                </div>
+
+                <div className="text-slate-600 bg-black/15 w-full h-[30px] flex 
+                                  justify-center items-center backdrop-blur-sm
+                                  absolute bottom-0 rounded-2xl">
+                  { projectData["3"]["name"] }
+                </div>
+              </div>
+
+              {/* 作品7 */}
+              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
+                                bg-center bg-cover relative">
+                <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center overflow-hidden aspect-auto">
+                  <img src={projectData["7"]["imageUrl"]} alt="fine liner art"
+                      className="h-[200px] w-full object-contain contrast-115"/>
+                </div>
+
+                <div className="text-slate-700 bg-black/15 w-full h-[30px] flex 
+                                  justify-center items-center backdrop-blur-sm
+                                  absolute bottom-0 rounded-2xl">
+                  { projectData["7"]["name"] }
+                </div>
+              </div>
+
+              {/* <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案6</div>
+              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案7</div> */}
             </div>
           </section>
         </div>
