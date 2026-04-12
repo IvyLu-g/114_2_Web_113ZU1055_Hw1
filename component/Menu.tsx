@@ -55,7 +55,7 @@ export default function Menu() {
 
         <Link href="/performance">
           <div className="bg-slate-950 p-[30px] mx-[24px] my-[30px] rounded-md text-white
-                            transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">程式專案</div>
+                            transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">表演照片</div>
         </Link>
 
 

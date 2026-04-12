@@ -12,8 +12,8 @@ export default function DesignWorks() {
       "imageUrl": "/designwork1_cloth.jpg"
     },
     "2": {
-      "name":"樂器行官網",
-      "imageUrl": "/ins.jpg"
+      "name":"PS海報設計_梵谷與我",
+      "imageUrl": "/ps_poster.png"
     },
   };
 
@@ -73,7 +73,7 @@ export default function DesignWorks() {
             <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 m-[26px]">
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
                                 row-span-2 bg-center bg-cover relative">
-                <div className="bg-slate-900 rounded-3xl h-full overflow-hidden flex justify-center items-center aspect-auto">
+                <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
                    <img src={projectData["1"]["imageUrl"]} alt="clothPainting"
                         className="h-full w-full object-contain"/>
                 </div>
@@ -88,17 +88,14 @@ export default function DesignWorks() {
 
 
 
-              <div className={`bg-amber-50 rounded-2xl h-full flex justify-center items-center 
-                bg-center bg-cover relative overflow-hidden`}
-                
-                style={{ backgroundImage: `url(${projectData["2"]["imageUrl"]})` }}
-              
-              >
+              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
+                                 overflow-hidden aspect-auto">
+                <img src={projectData["2"]["imageUrl"]} alt="psPoster"
+                     className="h-full w-full object-contain saturate-80"/>
 
                 <div className="text-white bg-black/15 w-full h-[80px] flex 
                                   justify-center items-center backdrop-blur-sm
-                                  absolute bottom-0"
-                >
+                                  absolute bottom-0">
                   { projectData["2"]["name"] }
                 </div>
                 
