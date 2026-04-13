@@ -52,7 +52,7 @@ export default function DesignWorks() {
         <div className="w-full h-screen overflow-y-auto">
           <div className="text-[36px] text-white font-bold text-center m-[20px]
                           underline underline-offset-17 decoration-4 decoration-slate-400/35">設計作品</div>
-          <section className="bg-slate-900/20 h-[500px] w-full my-[20px] p-[20px] rounded-2xl">
+          <section className="bg-slate-800/20 h-[500px] w-auto mr-[20px] my-[20px] p-[20px] rounded-2xl">
             <div className="text-[28px] text-white font-bold">社團表演照片後製</div>
             <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ 照片加字 & 繪圖設計</div>
 
@@ -89,7 +89,7 @@ export default function DesignWorks() {
 
           </section>
 
-          <section className="bg-slate-900/20 h-[1000px] w-full my-[20px] p-[20px] rounded-2xl">
+          <section className="bg-slate-800/20 h-[1000px] w-auto mr-[20px] my-[20px] p-[20px] rounded-2xl">
             <div className="text-[28px] text-white font-bold">設計/繪圖作品</div>
             <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ就是一些我設計或是畫的東西</div>
             
