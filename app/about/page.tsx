@@ -44,16 +44,15 @@ export default function About() {
               </div>
 
               <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 m-[26px]">
-                <div className=" rounded-2xl h-full flex justify-center items-center 
-                                bg-center bg-cover">
+                <div className="rounded-2xl flex justify-center items-center">
                   <Image src="/myphoto2.jpg" alt="my photo" width={260} height={260}
-                         className="saturate-50 brightness-80 rounded-2xl"/>
-                </div>
-                <div className=" rounded-2xl h-full flex justify-center bg-top bg-cover">
-                  <Image src="/self_photo.jpg" alt="my photo" width={260} height={260}
-                         className="saturate-50 brightness-80 rounded-2xl"/>
+                         className="saturate-50 brightness-80 rounded-2xl object-cover h-auto"/>
                 </div>
 
+                <div className="rounded-2xl flex justify-center items-center">
+                  <Image src="/self_photo.jpg" alt="my photo" width={260} height={260}
+                         className="saturate-50 brightness-80 rounded-2xl object-cover h-auto"/>
+                </div>
               </div>
 
               <div className="mt-[20px] pl-6 justify-center flex items-center gap-1">

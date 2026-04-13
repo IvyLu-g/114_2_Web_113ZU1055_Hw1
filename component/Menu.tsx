@@ -12,9 +12,11 @@ export default function Menu() {
           <Image src="/illustration1.png" alt="illustration1" width={120} height={120} className="opacity-50"/>
         </div>
 
-        <Link href="/">  
-            <div className="text-white py-[10px] px-[20px] animate-pulse"> HOME </div>
-        </Link>
+        <div className="flex">
+          <Link href="/">  
+              <div className="text-white py-[10px] px-[20px] animate-pulse"> HOME </div>
+          </Link>
+        </div>
 
         <div className="flex justify-center items-center w-full p-[7px]">
           <div className="bg-gray-200 w-[100px] h-[100px] rounded-full overflow-hidden

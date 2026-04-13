@@ -54,7 +54,7 @@ export default function DesignWorks() {
                           underline underline-offset-17 decoration-4 decoration-slate-400/35">設計作品</div>
           <section className="bg-slate-800/20 h-[500px] w-auto mr-[20px] my-[20px] p-[20px] rounded-2xl">
             <div className="text-[28px] text-white font-bold">社團表演照片後製</div>
-            <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ 照片加字 & 繪圖設計</div>
+            <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ 照片加字 & 繪圖設計 (可左右滑動)</div>
 
             <>
               <div className="flex overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide my-[40px]">
