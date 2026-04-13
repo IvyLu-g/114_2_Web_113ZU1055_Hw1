@@ -53,9 +53,9 @@ export default function Menu() {
                             transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">設計作品</div>
         </Link>
 
-        <Link href="/performance">
+        <Link href="/club-activities">
           <div className="bg-slate-950 p-[30px] mx-[24px] my-[30px] rounded-md text-white
-                            transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">表演照片</div>
+                            transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">社團活動</div>
         </Link>
 
 

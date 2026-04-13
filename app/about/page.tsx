@@ -19,8 +19,11 @@ export default function About() {
           <Menu />
         </div>
 
-        <div className="bg-slate-950 text-white w-full">
-          關於我
+        <div className="w-full h-screen overflow-y-auto">
+          <div className="text-[36px] text-white font-bold text-center m-[20px]
+                          underline underline-offset-17 decoration-4 decoration-slate-400/35">關於我</div>
+
+
         </div>
 
       </div>

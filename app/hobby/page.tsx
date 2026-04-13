@@ -14,11 +14,16 @@ export default function Hobby() {
             <div> <GoChevronLeft /> </div>
             <div className="m-1"> Back </div>
         </Link>
+
         <div className="sm:block hidden">
           <Menu />
         </div>
-        <div className="bg-slate-950 text-white w-full">
-          我的興趣
+
+        <div className="w-full h-screen overflow-y-auto">
+          <div className="text-[36px] text-white font-bold text-center m-[20px]
+                          underline underline-offset-17 decoration-4 decoration-slate-400/35">我的興趣</div>
+
+
         </div>
       </div>
       

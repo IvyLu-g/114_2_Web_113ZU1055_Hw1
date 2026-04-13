@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link";
 import { GoChevronLeft } from "react-icons/go";
 
-export default function Performance() {
+export default function ClubActivity() {
   
   return (
     <>
@@ -17,8 +17,12 @@ export default function Performance() {
         <div className="sm:block hidden">
           <Menu />
         </div>
-        <div className="bg-slate-950 text-white w-full">
-          設計作品
+
+        <div className="w-full h-screen overflow-y-auto">
+          <div className="text-[36px] text-white font-bold text-center m-[20px]
+                          underline underline-offset-17 decoration-4 decoration-slate-400/35">社團活動</div>
+
+
         </div>
       </div>
       
