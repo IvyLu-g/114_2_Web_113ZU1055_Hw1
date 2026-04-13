@@ -25,7 +25,7 @@ export default function About() {
           <div className="text-[36px] text-white font-bold text-center m-[20px]
                           underline underline-offset-17 decoration-4 decoration-slate-400/35">關於我</div>
 
-          <section className="bg-slate-800/20 h-[800px] w-auto m-[20px] p-[20px] rounded-2xl 
+          <section className="bg-slate-800/20 h-auto min-h-[820px] w-auto m-[20px] p-[20px] rounded-2xl 
                                 flex-1 flex-col pt-[90px] relative overflow-hidden">
             <Image src="/myphoto3.jpg" alt="background" fill
                    className="object-cover object-top brightness-50 z-0"/>
@@ -33,12 +33,12 @@ export default function About() {
             <div className="relative z-20">
               <div className="flex gap-2 items-center justify-center">
                 <BsFillMoonStarsFill className="text-slate-200/50 w-auto h-[35px]"/>
-                <h1 className="text-white text-5xl font-bold tracking-widest">盧家愛</h1>
+                <h1 className="text-white text-4xl font-bold tracking-widest">盧家愛</h1>
                 <h1 className="text-slate-300 text-3xl tracking-widest">Chia-Ai, Lu</h1>
               </div>
 
               <div className="mt-[20px] pl-6 justify-center flex">
-                <p className="text-slate-400 text-[16px] tracking-widest leading-loose">
+                <p className="text-slate-300 text-[16px] tracking-widest leading-loose">
                 就讀政治大學創新國際學院學士班，並修習數位內容學程<br />
                 興趣是繪畫/設計/表演，很多事情都還在努力中！</p>
               </div>
