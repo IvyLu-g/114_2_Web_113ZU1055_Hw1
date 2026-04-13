@@ -28,25 +28,16 @@ export default function Menu() {
                         decoration-1 decoration-slate-400/35">盧家愛</div>
         <div className="text-center text-slate-200 text-[13px] font-light">政大創新國際學院學士班大二生</div>
 
-        {/* <div className="flex gap-2">
-           icons, links, images 
-          <div>
-            <TbActivity />
-          </div>
-          <div>社群連結</div>
-          <div>社群連結</div>
-        </div> */}
-
 
         <Link href="/about">
           <div className="bg-slate-950 p-[30px] mx-[24px] my-[30px] rounded-md text-white
                             transition delay-150 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">關於我</div>
         </Link>
 
-        <Link href="/hobby">
+        {/* <Link href="/hobby">
           <div className="bg-slate-950 p-[30px] mx-[24px] my-[30px] rounded-md text-white
                             transition delay-100 duration-300 ease-in-out hover:scale-103 hover:bg-slate-800">我的興趣</div>
-        </Link>
+        </Link> */}
 
         <Link href="/design-works">
           <div className="bg-slate-950 p-[30px] mx-[24px] my-[30px] rounded-md text-white

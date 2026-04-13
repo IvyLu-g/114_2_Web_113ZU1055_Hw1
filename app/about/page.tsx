@@ -33,12 +33,12 @@ export default function About() {
             <div className="relative z-20">
               <div className="flex gap-2 items-center justify-center">
                 <BsFillMoonStarsFill className="text-slate-200/50 w-auto h-[35px]"/>
-                <h1 className="text-white text-4xl font-bold tracking-widest">盧家愛</h1>
-                <h1 className="text-slate-300 text-3xl tracking-widest">Chia-Ai, Lu</h1>
+                <h1 className="text-white sm:text-5xl text-3xl font-bold tracking-widest">盧家愛</h1>
+                <h1 className="text-slate-300 sm:text-3xl text-xl tracking-widest">Chia-Ai, Lu</h1>
               </div>
 
-              <div className="mt-[20px] pl-6 justify-center flex">
-                <p className="text-slate-300 text-[16px] tracking-widest leading-loose">
+              <div className="mt-[20px] sm:pl-6 justify-center flex">
+                <p className="text-slate-300 sm:text-[16px] text-[12px] tracking-widest leading-loose">
                 就讀政治大學創新國際學院學士班，並修習數位內容學程<br />
                 興趣是繪畫/設計/表演，很多事情都還在努力中！</p>
               </div>
@@ -47,11 +47,11 @@ export default function About() {
                 <div className=" rounded-2xl h-full flex justify-center items-center 
                                 bg-center bg-cover">
                   <Image src="/myphoto2.jpg" alt="my photo" width={260} height={260}
-                         className="saturate-50 brightness-60 rounded-2xl"/>
+                         className="saturate-50 brightness-80 rounded-2xl"/>
                 </div>
                 <div className=" rounded-2xl h-full flex justify-center bg-top bg-cover">
                   <Image src="/self_photo.jpg" alt="my photo" width={260} height={260}
-                         className="saturate-50 brightness-50 rounded-2xl"/>
+                         className="saturate-50 brightness-80 rounded-2xl"/>
                 </div>
 
               </div>

@@ -8,8 +8,8 @@ export default function Home() {
   
   return (
     <>
-      <div className="flex h-screen w-full bg-slate-950 overflow-hidden">
-        <div className="sm:flex hidden w-full h-full">
+      <div className="flex min-h-screen w-full bg-slate-950">
+        <div className="sm:flex hidden w-full h-screen overflow-hidden">
           {/* 電腦版 */}
           <Menu />
           <div className="flex-1 h-full relative overflow-hidden">
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="sm:hidden w-full flex justify-center">
+        <div className="sm:hidden w-full flex justify-center overflow-y-auto">
           {/* 手機版 */}
           <Menu />
         </div>
