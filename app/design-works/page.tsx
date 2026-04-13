@@ -12,10 +12,6 @@ export default function DesignWorks() {
       "name":"布畫_Dream & Keep the faith",
       "imageUrl": "/designwork1_cloth.jpg"
     },
-    "2": {
-      "name":"PS海報設計_梵谷與我",
-      "imageUrl": "/ps_poster.png"
-    },
     "3": {
       "name":"水彩_美人魚",
       "imageUrl": "/watercolor_mermaid.jpg"
@@ -52,7 +48,7 @@ export default function DesignWorks() {
         <div className="w-full h-screen overflow-y-auto">
           <div className="text-[36px] text-white font-bold text-center m-[20px]
                           underline underline-offset-17 decoration-4 decoration-slate-400/35">設計作品</div>
-          <section className="bg-slate-800/20 h-[500px] w-auto mr-[20px] my-[20px] p-[20px] rounded-2xl">
+          <section className="bg-slate-800/20 h-[500px] w-auto mr-[20px] my-[20px] p-[30px] rounded-2xl">
             <div className="text-[28px] text-white font-bold">社團表演照片後製</div>
             <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ 照片加字 & 繪圖設計 (可左右滑動)</div>
 
@@ -89,7 +85,7 @@ export default function DesignWorks() {
 
           </section>
 
-          <section className="bg-slate-800/20 h-[1000px] w-auto mr-[20px] my-[20px] p-[20px] rounded-2xl">
+          <section className="bg-slate-800/20 h-fit w-auto mr-[20px] my-[20px] p-[30px] rounded-2xl">
             <div className="text-[28px] text-white font-bold">設計/繪圖作品</div>
             <div className="text-[16px] text-slate-400 ">ฅ^•ﻌ•^ฅ就是一些我設計或是畫的東西</div>
             
@@ -100,7 +96,7 @@ export default function DesignWorks() {
                                 row-span-2 bg-center bg-cover relative">
                 <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
                    <img src={projectData["1"]["imageUrl"]} alt="clothPainting"
-                        className="h-full w-full object-contain"/>
+                        className="h-full w-full object-contain rounded-2xl"/>
                 </div>
 
                 <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
@@ -111,18 +107,18 @@ export default function DesignWorks() {
 
               </div>
 
-              {/* 作品2 */}
+              {/* 作品3 */}
               <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
-                                bg-center bg-cover relative">
+                                row-span-2 bg-center bg-cover relative">
                 <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center overflow-hidden aspect-auto">
-                  <img src={projectData["2"]["imageUrl"]} alt="psPoster"
-                      className="h-full w-full object-contain saturate-70"/>
+                  <img src={projectData["3"]["imageUrl"]} alt="watercolorMermaid"
+                      className="h-full w-full object-contain rounded-2xl"/>
                 </div>
 
-                <div className="text-slate-300 bg-black/15 w-full h-[30px] flex 
+                <div className="text-slate-600 bg-black/15 w-full h-[30px] flex 
                                   justify-center items-center backdrop-blur-sm
                                   absolute bottom-0 rounded-2xl">
-                  { projectData["2"]["name"] }
+                  { projectData["3"]["name"] }
                 </div>
               </div>
 
@@ -153,22 +149,6 @@ export default function DesignWorks() {
                                   justify-center items-center backdrop-blur-sm
                                   absolute bottom-0 rounded-2xl">
                   { projectData["5"]["name"] }
-                </div>
-              </div>
-
-
-              {/* 作品3 */}
-              <div className="bg-slate-900 rounded-2xl h-full flex justify-center items-center 
-                                row-span-2 bg-center bg-cover relative">
-                <div className="bg-slate-900 rounded-2xl h-full overflow-hidden flex justify-center items-center aspect-auto">
-                   <img src={projectData["3"]["imageUrl"]} alt="watercolorMermaid"
-                        className="h-full w-full object-contain"/>
-                </div>
-
-                <div className="text-slate-600 bg-black/15 w-full h-[30px] flex 
-                                  justify-center items-center backdrop-blur-sm
-                                  absolute bottom-0 rounded-2xl">
-                  { projectData["3"]["name"] }
                 </div>
               </div>
 
