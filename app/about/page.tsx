@@ -2,14 +2,17 @@
 import Image from "next/image"
 import Menu from "../../component/Menu"
 import Link from "next/link";
+import { GoChevronLeft } from "react-icons/go";
 
 export default function About() {
   
   return (
     <>
       <div className="flex h-full bg-slate-950 overflow-hidden">
-        <Link href="/" className="sm:hidden absolute left-2 top-2 bg-slate-950 text-white animate-pulse">  
-            Back
+        <Link href="/" className="sm:hidden absolute left-4 top-5 bg-slate-800 rounded-4xl 
+                                text-white p-[5px] flex items-center animate-pulse z-110">  
+            <div> <GoChevronLeft /> </div>
+            <div className="m-1"> Back </div>
         </Link>
 
         <div className="sm:block hidden">
